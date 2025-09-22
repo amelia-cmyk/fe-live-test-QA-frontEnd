@@ -1,5 +1,7 @@
 // Candidate: Write your Playwright E2E test for login here.
 import { test, expect } from "@playwright/test";
+import '@testing-library/cypress/add-commands';
+
 
 test.describe("Login Flow", () => {
   test.beforeEach(async ({ page }) => {
